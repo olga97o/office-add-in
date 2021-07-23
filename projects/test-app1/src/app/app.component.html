@@ -1,0 +1,16 @@
+<div style="text-align:center" class="content">
+    <h1>
+        Welcome to {{title}}!
+    </h1>
+    <span style="display: block">Your add-in is running!</span>
+    <img width="300" alt="Excel Logo" src="assets/excelLogo.png">
+    <button type="button" (click)="fillRandomNum()">FillRandomNum</button>
+    <br>
+    <button type="button" (click)="addPlusOne()">AddPlusOne</button>
+    <br>
+    <button type="button" (click)="splitForSquares()">SplitForSquares</button>
+    <br>
+    <button type="button" (click)="showAddressRange()">ShowSelectAddress</button>
+    <div id="showAddressDiv">Your Address:</div>
+</div>
+<router-outlet></router-outlet>
